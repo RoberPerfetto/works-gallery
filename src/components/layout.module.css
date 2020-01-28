@@ -1,0 +1,96 @@
+.bodyMain {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1080px;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    background-color: #F3F3F3;
+}
+
+.headerLayout {
+    padding: 0.1rem;
+    text-align: center;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo h1{
+    font-size: 3em;
+    color: #343434;
+    transition: .4s;
+}
+
+.logo h1:hover {
+    opacity: 0.5;
+}
+
+.navMenu {
+    display: block;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #343434;
+    
+}
+
+.socialIcons {
+    display: inline-block;
+    float: left;
+}
+
+.socialIcons img {
+    margin-left: 0.7em;
+    padding: 0.5rem;
+    display: inline-block;
+    transition: .4s;
+}
+
+.socialIcons img:hover {
+    opacity: 0.5;
+}
+
+.linksGroup {
+    display: inline-block;
+    float: right;
+}
+
+.linksGroup h2{
+    margin-right: 1.2em;
+    font-family: "Segoe UI";
+    font-size: 1em;
+    transition: .4s;
+}
+
+.linksGroup h2:hover{
+    opacity: 0.5;
+}
+
+.navLink {
+    display: inline-block;
+    
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1em;
+    color: #424242
+}
+
+.bodySection {
+    max-width: 95%;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .linksGroup h2{
+        margin-right: 0.1em;
+        font-size: 0.75em;
+    }
+    .socialIcons img {
+        width: 30%;
+        margin-left: 0.001em;
+    }
+  }

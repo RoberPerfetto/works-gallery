@@ -1,0 +1,24 @@
+.artContiner {
+    margin: 0.6rem;
+    color: #181818;
+}
+
+.imgs {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.artContiner h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.artContiner h2 {
+    margin-top: 2rem;
+    font-size: 1.1em;
+}
+
+.artContiner p {
+    font-size: 1em;
+}

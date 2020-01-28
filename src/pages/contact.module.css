@@ -1,0 +1,69 @@
+.containerForm {
+    width:90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.containerForm h1 {
+    font-size: 1.5em;
+
+}
+
+.labelForm {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.containerForm input[type=email], select, textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5em;
+    border: 0.07rem solid #616161;
+    resize: vertical;
+}
+
+.containerForm textarea{
+    height: 10rem;
+}
+  
+.containerForm  button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    float: right;
+    transition: .4s;
+}
+  
+.containerForm button[type=submit]:hover {
+    background-color: #45a049;
+}
+ 
+.colForm25 {
+   float: left;
+   width: 25%;
+   margin-top: 6px;
+}
+  
+  .colForm75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .rowForm:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .colForm25, .colForm75, button[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

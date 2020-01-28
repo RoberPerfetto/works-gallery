@@ -1,0 +1,51 @@
+.works {
+    display: block;
+    margin: 2em;
+    width: 90%;
+    padding: 0.85rem;
+    transition: .4s;
+    -webkit-box-shadow: 2px 2px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 9px -2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 9px -2px rgba(0,0,0,0.75);
+}
+
+.works:hover {
+    opacity: 0.5;    
+    -webkit-box-shadow: 1px 1px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 9px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 9px -2px rgba(0,0,0,0.75);
+    
+}
+
+.works span {
+    float: right;
+    font-size: 0.55em;
+}
+
+.title {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.linkWorks {
+    color: #424242;
+    text-decoration: none;
+}
+
+.img {
+    width: auto;
+    height:10em;
+    margin: auto;
+}
+
+.text {
+    width:95%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+       
+        

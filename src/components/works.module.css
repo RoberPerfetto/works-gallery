@@ -1,0 +1,16 @@
+.articles {
+    display: inline-block;
+    margin: 0.4em;
+    width: 18em;
+    height: 18em;   
+    transition: .4s;
+}
+
+.articles:hover {
+    opacity: 0.6;
+}
+
+.imgWork {
+    width: 100%;
+    height: 100%;
+}

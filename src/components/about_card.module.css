@@ -1,0 +1,67 @@
+/*------------------------CLASS A------------------------*/   
+
+.aclass {
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    padding: 1rem;
+    justify-content: start;
+    align-content: center;
+    margin-top: 0.5rem;
+}
+
+.aclass h1 {
+    font-size: 4em;
+}
+
+.aclass img {
+    width: 90%;
+    margin: 0.2rem;
+}
+
+.aclass .colForm25 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+    
+    width: 45%;
+    margin-top: 1em;
+}
+   
+.aclass .colForm75 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+    width: 55%;
+    margin-top: 1em;
+}
+
+/*------------------------CLASS B------------------------*/   
+
+.bclass {
+    display: flex;
+    
+    width: 100%;
+    padding: 1rem;
+    justify-content: start;
+    align-content: center;
+    margin-top: 0.5rem;
+}
+
+.bclass img {
+    width: 90%;
+    margin: 0.2rem;
+}
+
+.bclass .colForm25 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+    
+    width: 45%;
+    margin-top: 1em;
+}
+   
+.bclass .colForm75 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+    width: 55%;
+    margin-top: 1em;
+}
